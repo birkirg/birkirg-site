@@ -1,0 +1,8 @@
+{
+  // Static site: Cloudflare serves the files in public/ directly, no Worker code.
+  "name": "birkirg-site",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public"
+  }
+}

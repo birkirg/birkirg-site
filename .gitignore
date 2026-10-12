@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node / Wrangler
+node_modules/
+.wrangler/
+.dev.vars
