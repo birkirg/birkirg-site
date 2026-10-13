@@ -60,19 +60,24 @@ a {
 }
 
 .links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
   margin-top: 2rem;
-  color: var(--muted);
 }
 
 .links a {
   display: inline-flex;
-  align-items: center;
-  gap: 0.4em;
+  padding: 0.5rem;
+}
+
+.links a:hover {
+  opacity: 0.6;
 }
 
 .links svg {
-  width: 1em;
-  height: 1em;
+  width: 1.75rem;
+  height: 1.75rem;
 }
 
 @media (min-width: 40rem) {
