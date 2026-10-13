@@ -35,7 +35,7 @@ Hver undirsíða er mappa með `index.html`, svo slóðirnar verði hreinar (`/p
 - Slóðir án séríslenskra stafa: `/dagbok`, ekki `/dagbók`.
 - `<html lang="is">` og `<meta charset="utf-8">` á öllum síðum.
 - Hönnun fyrir síma fyrst (mobile-first). Prófa í breiddinni 375px.
-- Einfalt og læsilegt: kerfisletur, nóg bil, enginn óþarfi.
+- Einfalt og læsilegt: svart á hvítu, letrið IBM Plex Mono hýst í `public/fonts/` (engar letur-tengingar við þriðja aðila), nóg bil, enginn óþarfi.
 - Sami haus og valmynd á öllum síðum.
 - Engar vafrakökur og engin þriðja aðila rakning.
 
