@@ -38,6 +38,7 @@ main {
   max-width: 38rem;
   margin: 0 auto;
   padding: 4rem 1rem;
+  text-align: center;
 }
 
 h1 {
@@ -61,6 +62,17 @@ a {
 .links {
   margin-top: 2rem;
   color: var(--muted);
+}
+
+.links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.links svg {
+  width: 1em;
+  height: 1em;
 }
 
 @media (min-width: 40rem) {
