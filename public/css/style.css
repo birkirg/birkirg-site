@@ -38,6 +38,7 @@ main {
   max-width: 38rem;
   margin: 0 auto;
   padding: 4rem 1rem;
+  text-align: center;
 }
 
 h1 {
