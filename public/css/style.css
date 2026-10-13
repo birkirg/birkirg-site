@@ -63,6 +63,17 @@ a {
   color: var(--muted);
 }
 
+.links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.links svg {
+  width: 1em;
+  height: 1em;
+}
+
 @media (min-width: 40rem) {
   main {
     padding-top: 6rem;
