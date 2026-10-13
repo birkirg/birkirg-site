@@ -80,6 +80,53 @@ a {
   height: 1.75rem;
 }
 
+/* Plan page: left-aligned so lists read well */
+.plan {
+  text-align: left;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+.plan section {
+  margin-top: 2.5rem;
+}
+
+.plan h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.plan section p {
+  margin: 0 0 0.5rem;
+}
+
+.plan ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--muted);
+}
+
+.status {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0 0.4rem;
+  border: 1px solid currentColor;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
 @media (min-width: 40rem) {
   main {
     padding-top: 6rem;
